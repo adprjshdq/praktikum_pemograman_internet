@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi</title>
+    <link rel="icon" type="images/x-icon" href="./assets/images/Unper.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Bagian Top Bar -->
+    <div class="topbar">
+        <div class="container topbar_container">
+
+            <!-- Bagian Kiri Top bar -->
+            <div class="topbar_left">
+                <div class="topbar_links">
+                    <a href="./VisiMisi.html">Visi Misi ↗</a>
+                    <a href="./Fakultas.html">Fakultas ↗</a>
+                    <a href="./contact.html">Hubungi Kami ↗</a>
+                </div>
+            </div>
+
+            <!--Bagian Kanan Top Bar -->
+            <div class="topbar_right">
+                <a href="./pmb.html" class="topbar_badge">PMB ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Header & Navigasi Utama -->
+    <header class="header" id="header">
+        <div class="container_navbar">
+
+            <!-- Bagian Brand Logo -->
+            <a href="./index.html" class="brand">
+                <div class="logo_icon">
+                    <img src="./assets/images/logo-unper.webp" alt="logo unper">
+                </div>
+            </a>
+
+            <!-- Bagian Menu Navigasi -->
+            <nav class="nav_menu">
+                <div class="nav_item"><a href="./index.html" class="nav_link">Home</a></div>
+
+                <!--Bagian Menu dengan Dropdown -->
+                <div class="nav_item dropdown">
+                    <a href="./SturkturOrganisasi.html" class="nav_link nav_active dropdown-toggle">Struktur Organisasi
+                        ▾</a>
+
+                    <!-- ini bagian Isi Kotak Dropdown -->
+                    <div class="dropdown-menu">
+                        <a href="./BEM.html" class="dropdown-item">BEM</a>
+                        <a href="./UKM.html" class="dropdown-item">UKM</a>
+                        <a href="./prodi.html" class="dropdown-item">Prodi</a>
+                    </div>
+                </div>
+
+                <div class="nav_item"><a href="./Fakultas.html" class="nav_link">Fakultas</a></div>
+                <div class="nav_item"><a href="./VisiMisi.html" class="nav_link">Visi Misi</a></div>
+                <div class="nav_item"><a href="./pmb.html" class="nav_link">PMB</a></div>
+                <div class="nav_item"><a href="./contact.html" class="nav_link">Hubungi Kami</a></div>
+            </nav>
+
+            <!-- Bagian Header Tools -->
+            <div class="header_tools">
+                <a href="./pmb.html" class="btn-daftar">Daftar PMB ↗</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bagian Struktur Organisasi -->
+
+    <section class="org-section">
+        <div class="org-container">
+
+            <!-- Header Halaman -->
+            <div class="org-header">
+                <span class="org-eyebrow">TATA KELOLA & KEPEMIMPINAN</span>
+                <h1>Struktur Organisasi Institusi</h1>
+                <p>Susunan pimpinan rektorat, senat akademik, dan unsur pelaksana administrasi Universitas Perjuangan
+                    Tasikmalaya periode berjalan.</p>
+            </div>
+
+            <!-- Bagan Hirarki Pimpinan (Top-Down) -->
+            <div class="org-chart-wrapper">
+
+                <!-- Level 1: Rektor -->
+                <div class="org-level level-rektor">
+                    <div class="org-card primary-leader">
+                        <span class="org-role-badge">PIMPINAN TERTINGGI</span>
+                        <h3>Rektor</h3>
+                        <p class="leader-name">Adipraja shidqi S.KOM</p>
+                        <span class="leader-nip">NIDN: 0012046001</span>
+                    </div>
+                </div>
+
+                <!-- Garis Penghubung Vertikal & Horizontal -->
+                <div class="org-connector-vertical"></div>
+                <div class="org-connector-horizontal"></div>
+
+                <!-- Level 2: Wakil Rektor (3 Kolom) -->
+                <div class="org-level level-warek">
+
+                    <div class="org-card">
+                        <span class="org-role-badge">BIDANG I</span>
+                        <h4>Wakil Rektor I</h4>
+                        <p class="role-desc">Bidang Akademik, Kemahasiswaan & Alumni</p>
+                        <p class="leader-name">Muhamad Afnan S.KOM</p>
+                    </div>
+
+                    <div class="org-card">
+                        <span class="org-role-badge">BIDANG II</span>
+                        <h4>Wakil Rektor II</h4>
+                        <p class="role-desc">Bidang Administrasi Umum, Keuangan & SDM</p>
+                        <p class="leader-name">Ihsan Abdan Sakuro S.KOM</p>
+                    </div>
+
+                    <div class="org-card">
+                        <span class="org-role-badge">BIDANG III</span>
+                        <h4>Wakil Rektor III</h4>
+                        <p class="role-desc">Bidang Perencanaan, Kerja Sama & Sistem Informasi</p>
+                        <p class="leader-name">Al Mutassim Billah S.KOM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bagian Unsur Pelaksana & Lembaga (Grid Bawah) -->
+            <div class="org-units-block">
+                <h2 class="units-title">Lembaga, Biro & Unit Pelaksana Teknis</h2>
+
+                <div class="units-grid">
+                    <div class="unit-card">
+                        <span class="unit-code">LP2M</span>
+                        <h4>Lembaga Penelitian dan Pengabdian kepada Masyarakat</h4>
+                        <p>Mengelola riset dosen, publikasi jurnal ilmiah (OJS), HKI, dan program KKN mahasiswa.</p>
+                    </div>
+
+                    <div class="unit-card">
+                        <span class="unit-code">LPM</span>
+                        <h4>Lembaga Penjaminan Mutu</h4>
+                        <p>Menjamin standar mutu akademik (SPMI) serta pendampingan akreditasi institusi dan prodi.</p>
+                    </div>
+
+                    <div class="unit-card">
+                        <span class="unit-code">BAAK</span>
+                        <h4>Biro Administrasi Akademik dan Kemahasiswaan</h4>
+                        <p>Melayani registrasi mahasiswa, jadwal perkuliahan, pelaporan PDDikti, dan layanan wisuda.</p>
+                    </div>
+
+                    <div class="unit-card">
+                        <span class="unit-code">UPT TIK</span>
+                        <h4>Unit Pelaksana Teknis Teknologi Informasi</h4>
+                        <p>Mengelola infrastruktur jaringan kampus, sistem informasi SIMANTAP, dan portal digital.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Utama -->
+
+    <footer class="footer-section">
+        <div class="footer-container">
+
+            <!-- Kolom 1: Logo & Kontak -->
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="./assets/images/logo-unper.webp" alt="Logo Unper">
+                </div>
+                <p class="footer-tagline">Membangun Generasi Unggul<br>Berkarakter Perjuangan</p>
+                <p class="footer-address">Jl. Pembela Tanah Air (PETA) No. 177, Kel. Kahuripan, Kec. Tawang, Kota
+                    Tasikmalaya, Jawa Barat 46115</p>
+                <p class="footer-contact">Email: info@unper.ac.id</p>
+                <p class="footer-contact">Telepon: (0265) 326058</p>
+            </div>
+
+            <!-- Kolom 2: Fakultas -->
+            <div class="footer-col">
+                <h4 class="footer-title">FAKULTAS</h4>
+                <ul class="footer-links">
+                    <li><a href="./Fakultas.html">FT (Teknik)</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 3: Informasi Publik -->
+            <div class="footer-col">
+                <h4 class="footer-title">INFORMASI PUBLIK</h4>
+                <ul class="footer-links">
+                    <li><a href="./pmb.html">Penerimaan Mahasiswa Baru (PMB)</a></li>
+                    <li><a href="#">Akreditasi Institusi & Prodi</a></li>
+                    <li><a href="#">Warta & Berita Kampus</a></li>
+                    <li><a href="#">Pengumuman Terpadu Sivitas</a></li>
+                    <li><a href="#">Agenda & Kalender Akademik</a></li>
+                    <li><a href="#">Indeks Prestasi Mahasiswa</a></li>
+                    <li><a href="#">Pencarian Informasi</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 4: Sistem Terintegrasi -->
+            <div class="footer-col">
+                <h4 class="footer-title">SISTEM TERINTEGRASI</h4>
+                <ul class="footer-links">
+                    <li><a href="https://simantap.unper.ac.id/">SIMANTAP SIAKAD ↗</a></li>
+                    <li><a href="./pmb.html">Portal Pendaftaran PMB ↗</a></li>
+                    <li><a href="https://lp2m.unper.ac.id/">E-Journal UNPER (OJS) ↗</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Garis Pemisah & Copyright -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>© 2026 Uncper. Praktikum PI. Created By Kelompok 2</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
